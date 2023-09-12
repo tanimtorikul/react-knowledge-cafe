@@ -5,12 +5,12 @@ import Header from "./components/Header/Header";
 function App() {
   return (
     <>
-      <div className="container mx-auto">
-      <Header />
-     <div className="md:flex">
-     <Blogs ></Blogs>
-     <Bookmarks></Bookmarks>
-     </div>
+      <div className="container mx-auto max-w-7xl	">
+        <Header />
+        <div className="md:flex">
+          <Blogs></Blogs>
+          <Bookmarks></Bookmarks>
+        </div>
       </div>
     </>
   );
